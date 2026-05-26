@@ -14,9 +14,9 @@ A Python-based AI-powered visitor management system that uses **face recognition
 - Structured image storage with auto-incremented naming
 - PostgreSQL backend with pgvector for vector similarity search
 
----
-
 ## Project Structure
+
+```
 AI_Visitor_Mgmt/
 ├── app/
 │   ├── main.py                  # Main entry point (full featured menu)
@@ -35,9 +35,8 @@ AI_Visitor_Mgmt/
 ├── schema/
 │   └── schema.sql               # PostgreSQL schema with pgvector
 └── requirements/
-└── requirements.txt
-
----
+    └── requirements.txt
+```
 
 ## Tech Stack
 
