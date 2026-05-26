@@ -1,0 +1,9 @@
+torch
+torchvision
+opencv-python
+numpy
+pillow
+psycopg2
+insightface
+onnxruntime
+sentence-transformers
