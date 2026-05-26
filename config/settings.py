@@ -12,7 +12,7 @@ DB_NAME = "ai_visitor_db"
 
 DB_USER = "postgres"
 
-DB_PASSWORD = "snehaa_p"
+DB_PASSWORD = "your_password"
 
 # ======================================================
 # REGISTERED PERSON IMAGE STORAGE
