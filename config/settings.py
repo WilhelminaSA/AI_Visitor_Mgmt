@@ -35,10 +35,6 @@ os.makedirs(
 # MONITORING
 # ======================================================
 
-MONITORING_DIR = (
-    r"C:\my_work\aiv22\Images"
-)
-
 MONITORING_INTERVAL = 30
 
 # ======================================================
