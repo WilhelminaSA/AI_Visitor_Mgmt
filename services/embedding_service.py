@@ -17,6 +17,7 @@ print("Loading InsightFace...")
 
 face_app = FaceAnalysis(
     name="buffalo_l",
+    root=r"C:\my_work",
     providers=["CPUExecutionProvider"]
 )
 
@@ -34,7 +35,7 @@ print("InsightFace Loaded")
 print("Loading CLIP...")
 
 clip_model = SentenceTransformer(
-    "sentence-transformers/clip-ViT-B-32"
+    "c:/my_work/models/clip-ViT-B-32"
 )
 
 print("CLIP Loaded")
@@ -129,6 +130,7 @@ def get_multiple_face_embeddings(
 
     all_embeddings = []
 
+    num_faces = 0
     for face in faces:
 
         embedding = face.embedding
@@ -140,7 +142,9 @@ def get_multiple_face_embeddings(
         all_embeddings.append(
             embedding
         )
+        num_faces += 1
 
+    print(f"num_faces = {num_faces}\n")
     return all_embeddings
 
 # ======================================================
